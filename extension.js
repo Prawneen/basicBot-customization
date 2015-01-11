@@ -31,6 +31,7 @@
          }
 
          */
+       
 
         bot.commands.baconCommand = {
             command: 'bite',  //The command to be called. With the standard command literal this would be: !bacon
@@ -40,7 +41,7 @@
                 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                 if (!bot.commands.executable(this.rank, chat)) return void (0);
                 else {
-                    API.sendChat("/me bites everybody in the channel!!!");
+                    API.sendChat("/me Bites everybody!!!");
                 }
             }
         };
