@@ -53,15 +53,15 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: "basicBot",
+        botName: "Edgeotronic",
         language: "english",
-        chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
+        chatLink: "https://rawgit.com/Prawneen/basicBot/master/lang/en.json",
         maximumAfk: 120,
-        afkRemoval: true,
+        afkRemoval: false,
         maximumDc: 60,
         bouncerPlus: true,
         lockdownEnabled: false,
-        lockGuard: false,
+        lockGuard: true,
         maximumLocktime: 10,
         cycleGuard: true,
         maximumCycletime: 10,
@@ -84,8 +84,8 @@
         afkRankCheck: "ambassador",
         motdEnabled: false,
         motdInterval: 5,
-        motd: "Temporary Message of the Day",
-        filterChat: true,
+        motd: "Edgeotronic is still not working properly. My apologies.",
+        filterChat: false,
         etaRestriction: false,
         welcome: true,
         opLink: null,
@@ -93,18 +93,18 @@
         themeLink: null,
         fbLink: null,
         youtubeLink: null,
-        website: null,
+        website: true,
         intervalMessages: [],
         messageInterval: 5,
         songstats: true,
         commandLiteral: "!",
         blacklists: {
-            NSFW: "https://rawgit.com/Yemasthui/basicBot-customization/master/blacklists/ExampleNSFWlist.json",
-            OP: "https://rawgit.com/Yemasthui/basicBot-customization/master/blacklists/ExampleOPlist.json"
+            NSFW: "https://rawgit.com/Prawneen/basicBot-customization/master/blacklists/ExampleNSFWlist.json",
+            OP: "https://rawgit.com/Prawneen/basicBot-customization/master/blacklists/ExampleOPlist.json"
         }
     }));
 
     //Start the bot and extend it when it has loaded.
-    $.getScript('https://rawgit.com/Yemasthui/basicBot/master/basicBot.js', extend);
+    $.getScript('https://rawgit.com/Prawneen/basicBot/master/basicBot.js', extend);
 
 }).call(this);
