@@ -98,7 +98,7 @@
         afkRankCheck: "ambassador",
         motdEnabled: false,
         motdInterval: 5,
-        motd: "Edgeotronic is still not working properly. My apologies.",
+        motd: "Welcome to Galaxy Citizen's Music channel. All GC Rules apply here. We have to set a time limit for your songs. No one wants to wait so long.(10Minutes) Admins can disable this timelimit if a reason is given.(!timeguard).",
         filterChat: false,
         etaRestriction: false,
         welcome: true,
