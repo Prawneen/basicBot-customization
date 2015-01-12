@@ -45,6 +45,19 @@
             }
         };
         
+        bot.commands.baconCommand = {
+            command: 'excellent',
+            rank: 'user',
+            type: 'exact',
+            functionality: function (chat, cmd) {
+                if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                if (!bot.commands.executable(this.rank, chat)) return void (0);
+                else {
+                    API.sendChat("/me Ehkcellent!!!!");
+                }
+            }
+        };
+        
 
         //Load the chat package again to account for any changes
         bot.loadChat();
@@ -90,11 +103,11 @@
         etaRestriction: false,
         welcome: true,
         opLink: null,
-        rulesLink: null,
+        rulesLink: "http://www.galaxycitizen.com/index.php?/topic/3733-galaxy-citizen-rules/",
         themeLink: null,
         fbLink: null,
         youtubeLink: null,
-        website: false,
+        website: "http://www.galaxycitizen.com/",
         intervalMessages: [],
         messageInterval: 5,
         songstats: true,
