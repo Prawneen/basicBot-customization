@@ -32,8 +32,8 @@
 
          */
        
-         bot.commands.AuroraCommand = {
-            command: 'Aurora',
+         bot.commands.auroraCommand = {
+            command: 'aurora',
             rank: 'user',
             type: 'exact',
             functionality: function (chat, cmd) {
@@ -42,7 +42,8 @@
                 else {
                     API.sendChat("/me Princess Aururururu is going to bite you if you don't behave!!!");
                 }
-                }
+            }
+         };
         
         bot.commands.excellentCommand = {
             command: 'excellent',
