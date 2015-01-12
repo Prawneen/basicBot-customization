@@ -32,7 +32,7 @@
 
          */
        
-         bot.commands.baconCommand = {
+         bot.commands.AuroraCommand = {
             command: 'Aurora',
             rank: 'user',
             type: 'exact',
@@ -45,7 +45,7 @@
             }
         };
         
-        bot.commands.baconCommand = {
+        bot.commands.excellentCommand = {
             command: 'excellent',
             rank: 'user',
             type: 'exact',
