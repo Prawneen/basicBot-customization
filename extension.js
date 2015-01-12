@@ -43,7 +43,7 @@
                     API.sendChat("/me Princess Aururururu is going to bite you if you don't behave!!!");
                 }
             }
-         };
+        };
         
         bot.commands.excellentCommand = {
             command: 'excellent',
@@ -57,7 +57,6 @@
                 }
             }
         };
-        
 
         //Load the chat package again to account for any changes
         bot.loadChat();
